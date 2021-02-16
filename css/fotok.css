@@ -1,0 +1,47 @@
+body{
+	background-color: #333333;
+	margin: 0px 0px 0px 0px;
+	font-family: proxima-nova;
+}
+#menu{
+	float: left;
+	width: 200px;
+	height: 938px;
+	background-color: white;
+	margin: 0px 0px 0px 0px;
+}
+#home{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	font-size: 20px;
+}
+#a{
+	text-decoration: none;
+	color: #888888;
+	font-family: proxima-nova;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#projects{
+	text-decoration: none;
+	color: #222222;
+	font-family: proxima-nova;
+}
+#nev{
+	margin-left: 20px;
+}
+a.gomb:hover{
+	color: #888888;
+	margin-left: 5px;
+	transition: 0.15s;
+}
+body a{
+	-webkit-transition: all 0.15s ease-in-out;
+}
+@font-face {
+ font-family:proxima-nova;
+ src: url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/a?subset_id=2&fvd=n3&v=3) format("opentype");
+ font-style:normal;
+ font-display:auto;
+}
