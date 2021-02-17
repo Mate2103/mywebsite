@@ -69,3 +69,62 @@ body a{
  font-style:normal;
  font-display:auto;
 }
+#kisto1{
+	height: 180px;
+	width: 320px;
+	margin: 20px;
+	float: left;
+	border: 2px solid white;
+	border-radius: 3px;
+	transition: all 0.2s ease-in-out;
+}
+#kisto1:hover{
+	transform: scale(1.1);
+	border-color: gray;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 100px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  height: 70%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  text-align: center;
+}
+.popup img{
+	position: relative;
+	top: center;
+	height: 630px;
+ 	width: 1120px;
+}
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+}
+.popup .close:hover {
+  color: gray;
+}
