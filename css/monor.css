@@ -6,7 +6,7 @@ body{
 #menu{
 	float: left;
 	width: 200px;
-	height: 938px;
+	height: 100vh;
 	background-color: white;
 	margin: 0px 0px 0px 0px;
 }
@@ -97,7 +97,6 @@ body a{
   visibility: visible;
   opacity: 1;
 }
-
 .popup {
   margin: 100px auto;
   padding: 20px;
@@ -108,12 +107,6 @@ body a{
   position: relative;
   transition: all 5s ease-in-out;
   text-align: center;
-}
-.popup img{
-	position: relative;
-	top: center;
-	height: 630px;
- 	width: 1120px;
 }
 .popup .close {
   position: absolute;
@@ -127,4 +120,10 @@ body a{
 }
 .popup .close:hover {
   color: gray;
+}
+.popup img{
+	position: relative;
+	top: center;
+	height: 67%;
+ 	width: 94%;
 }
