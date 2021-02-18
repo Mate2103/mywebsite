@@ -1,27 +1,28 @@
 body{
 	background-color: #333333;
 	margin: 0px 0px 0px 0px;
+	padding: 0px;
 	font-family: proxima-nova;
 }
 #menu{
 	float: left;
-	width: 10.4%;
+	width: 11%;
 	height: 100vh;
 	background-color: white;
 	margin: 0px 0px 0px 0px;
 }
-#home{
+#sidebar{
 	position: relative;
-	top: 50px;
-	left: 50px;
-	font-size: 20px;
+	top: 5%;
+	left: 25%;
+	font-size: 1.3vw;
 }
-#a{
+#home{
 	text-decoration: none;
 	color: #888888;
 	font-family: proxima-nova;
-	margin-left: 5px;
-	margin-top: 5px;
+	margin-left: 2.5%;
+	margin-top: 2.5%;
 }
 #projects{
 	text-decoration: none;
@@ -29,7 +30,15 @@ body{
 	font-family: proxima-nova;
 }
 #nev{
-	margin-left: 20px;
+	margin-left: 5%;
+	font-size: 1.7vw;
+	text-align: left;
+}
+.frame{
+	float: right; 
+	width: 89%; 
+	height: 99vh;
+	border: none;
 }
 a.gomb:hover{
 	color: #888888;

@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+.background{
+    float: left;
+    background-image: url("./montázs.jpg");
+    filter: blur(3px);
+    height: 100vh;
+    width: 100vw;
+    background-size: 100vw 100vh;
+}
+.nev{
+    color: #fff;
+    font-size: 5vw;
+    position: absolute;
+    top: 10vh;
+    right: 17vw;
+    -webkit-text-stroke: 0.5px black;
+}
