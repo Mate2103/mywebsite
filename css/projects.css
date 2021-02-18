@@ -41,15 +41,19 @@ body{
 }
 #kozepso{
 	text-decoration: none;
-	position: relative;
+	/*position: relative;
 	left: 250px;
-	top: -140px;
+	top: -140px;*/
 	color: black;
-	filter: blur(0.2px);
+	filter: blur(0.4px);
 	text-align: center;
-	background-color: white;
+	/*background-color: white;*/
+	margin: 20px;
 	transition: all 0.5s ease-in-out;
 }
+/*#kepek{
+	float: left;
+}*/
 #kozepso:hover{
 	filter: blur(0);
 }
@@ -64,6 +68,7 @@ body{
 	border: 2px solid white;
 	border-radius: 3px;
 	width: 324px;
+	display: inline-block;
 }
 #kep:hover{
 	/*height: 118.125px;
