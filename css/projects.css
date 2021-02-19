@@ -1,35 +1,3 @@
-body{
-	background-color: #333333;
-	margin: 0px 0px 0px 0px;
-	font-family: proxima-nova;
-}
-#menu{
-	float: left;
-	width: 200px;
-	height: 938px;
-	background-color: white;
-	margin: 0px 0px 0px 0px;
-}
-#home{
-	position: relative;
-	top: 50px;
-	left: 50px;
-	font-size: 20px;
-	color: #222222;
-	text-decoration: none;
-}
-#nev{
-	margin-left: 20px;
-}
-#projects{
-	position: relative;
-	top: 50px;
-	left: 50px;
-	font-size: 20px;
-	text-decoration: none;
-	color: #888888;
-	margin-left: 5px;
-}
 #monor{
 	position: relative;
 	top: 50px;

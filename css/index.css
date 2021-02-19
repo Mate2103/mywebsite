@@ -9,22 +9,22 @@ body{
 	width: 11%;
 	height: 100vh;
 	background-color: white;
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 }
 #sidebar{
 	position: relative;
 	top: 5%;
 	left: 25%;
-	font-size: 1.3vw;
 }
 #home{
+	font-size: 1.5vw;
 	text-decoration: none;
-	color: #888888;
+	color: #222222;
 	font-family: proxima-nova;
-	margin-left: 2.5%;
-	margin-top: 2.5%;
+	
 }
 #projects{
+	font-size: 1.5vw;
 	text-decoration: none;
 	color: #222222;
 	font-family: proxima-nova;
@@ -40,10 +40,14 @@ body{
 	height: 99vh;
 	border: none;
 }
-a.gomb:hover{
+.gomb{
+	display: block;
+	
+}
+.gomb:hover{
+	transition: 0.15s ease-in-out;
 	color: #888888;
-	margin-left: 5px;
-	transition: 0.15s;
+	margin-left: 2.5%;
 }
 @font-face {
  font-family:proxima-nova;
