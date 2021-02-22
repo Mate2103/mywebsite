@@ -1,12 +1,3 @@
-#monor{
-	position: relative;
-	top: 50px;
-	left: 60px;
-	font-size: 20px;
-	text-decoration: none;
-	color: #222222;
-	font-size: 20px;
-}
 #kozepso{
 	text-decoration: none;
 	/*position: relative;
@@ -44,14 +35,6 @@
 	background-color: gray;
 	transform: scale(1.1);
 	border-color: gray;
-}
-a.gomb:hover{
-	color: #888888;
-	margin-left: 5px;
-	transition: 0.15s;
-}
-body a{
-	-webkit-transition: all 0.15s ease-in-out;
 }
 @font-face {
  font-family:proxima-nova;

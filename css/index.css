@@ -19,14 +19,12 @@ body{
 #home{
 	font-size: 1.5vw;
 	text-decoration: none;
-	color: #222222;
 	font-family: proxima-nova;
 	
 }
 #projects{
 	font-size: 1.5vw;
 	text-decoration: none;
-	color: #222222;
 	font-family: proxima-nova;
 }
 #nev{
@@ -41,13 +39,23 @@ body{
 	border: none;
 }
 .gomb{
+	color: #222222;
 	display: block;
-	
+	transition: all 0.15s ease;
 }
 .gomb:hover{
-	transition: 0.15s ease-in-out;
 	color: #888888;
-	margin-left: 2.5%;
+	margin-left: 0.2vw;
+}
+#almenu{
+	font-size: 1.5vw;
+	text-decoration: none;
+	font-family: proxima-nova;
+	margin-left: 0.7vw;
+	transition: all 0.15s ease;
+}
+#almenu:hover{
+	margin-left: 0.9vw;
 }
 @font-face {
  font-family:proxima-nova;
