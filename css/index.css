@@ -17,13 +17,13 @@ body{
 	left: 25%;
 }
 #home{
-	font-size: 1.5vw;
+	font-size: 1.4vw;
 	text-decoration: none;
 	font-family: proxima-nova;
 	
 }
 #projects{
-	font-size: 1.5vw;
+	font-size: 1.4vw;
 	text-decoration: none;
 	font-family: proxima-nova;
 }
@@ -48,7 +48,7 @@ body{
 	margin-left: 0.2vw;
 }
 #almenu{
-	font-size: 1.5vw;
+	font-size: 1.4vw;
 	text-decoration: none;
 	font-family: proxima-nova;
 	margin-left: 0.7vw;

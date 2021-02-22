@@ -15,9 +15,11 @@ a.gomb:hover{
  font-display:auto;
 }
 .kiskep{
-	height: 16.6666%;
-  width: 16.66666%;
-	margin: 20px;
+	height: 18%;
+  width: 18%;
+	margin-right: 37px;
+  margin-left: 36px;
+  margin-top: 40px;
 	border: 2px solid white;
 	border-radius: 3px;
 	transition: all 0.2s ease-in-out;
