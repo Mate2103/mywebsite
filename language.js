@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById("foto").innerHTML = "Photography website";
         document.getElementById("calc").innerHTML = "Calculator";
       } else {
-        document.getElementById("foto").innerHTML = "Fotós weboldal";
+        document.getElementById("foto").innerHTML = "Fotós oldal";
         document.getElementById("calc").innerHTML = "Számológép";
       }
     });
