@@ -8,6 +8,11 @@ a.gomb:hover{
 	margin-left: 5px;
 	transition: 0.15s;
 }
+#menu{
+  height: 130vh !important;
+  position: sticky;
+  top: 0;
+}
 @font-face {
  font-family:proxima-nova;
  src: url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/a?subset_id=2&fvd=n3&v=3) format("opentype");
@@ -23,6 +28,7 @@ a.gomb:hover{
 	border: 2px solid white;
 	border-radius: 3px;
 	transition: all 0.2s ease-in-out;
+  left: 200px
 }
 .sidebar{
   margin-top: 0 !important;
