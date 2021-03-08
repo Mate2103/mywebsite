@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html{
+            overflow-y: hidden;
+        }
+        body{
+            background: linear-gradient(100deg, #00fffc, #00a700);
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        .grid-container{
+            
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            min-height: 100vh;
+            grid-template-columns: repeat(3, 250px);
+            grid-template-rows: minmax(120px, auto) repeat(3, 100px);
+        }
+        .grid-item{
+            cursor: pointer;
+            font-size: 2rem;
+            border: 1px solid white;
+            outline: none;
+            background-color: rgba(255, 255, 255, .75);
+            text-align: center;
+            padding-top: 41px;
+        }
+        .grid-item:hover{
+            background-color: rgba(255, 255, 255, .9);
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+    <title>Test Hub</title>
+</head>
+<body>
+    <h1>Teszt oldalak</h1>
+    <div class="grid-container">
+        <div class="grid-item"><a href="">Stopper</a></div>
+        <div class="grid-item"><a href="">Óra</a></div>
+        <div class="grid-item"><a href="">Valami</a></div>
+    </div>
+</body>
+</html>
