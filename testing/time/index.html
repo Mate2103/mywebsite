@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Time</title>
+    <style>
+        body{
+            background: rgb(255,231,0);
+            background: radial-gradient(circle, rgba(255,231,0,1) 0%, rgba(11,213,0,1) 100%);
+        }
+        #ido{
+            color: rgba(0, 0, 0, .9);
+            font-size: 200px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        #datum{
+            color: rgba(0, 0, 0, .8);
+            font-size: 75px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <p id="datum">asd</p>
+    <div id="ido">00:00:00</div>
+    <script>
+        function Time() {
+            var date = new Date();
+            var sec = date.getSeconds();
+            var min = date.getMinutes();
+            var hour = date.getHours();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var year = date.getUTCFullYear();
+            
+    
+            hour = checkTime(hour);
+            min = checkTime(min);
+            sec = checkTime(sec);
+            document.getElementById('ido').innerHTML = 
+            hour + ":"+min+":"+sec;
+            var mytime = setTimeout('Time()', 500);
+            document.getElementById('datum').innerHTML=
+            year + ". " + date.toLocaleString('default', { month: 'long' }) +" "+day+"."; 
+        }
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};
+            return i;
+        }
+        Time();
+        </script>
+</body>
+</html>
