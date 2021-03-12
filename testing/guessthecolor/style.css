@@ -19,9 +19,6 @@ body{
     padding: 0;
     transition: all 0.3s ease-in-out;
 }
-.square:hover{
-   /* transform: scale(1.1); */
-}
 .square-container{
     padding-top: 50px;
     width: 848px;
@@ -65,5 +62,27 @@ p { text-align: center; }
 #game:hover{
     background-color: rgb(44, 142, 153);
     color: white;
+}
+#easy{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    color: rgb(44, 142, 153);
+    right: 600px;
+    font-size: 1em;
+}
+#hard{
+    position: absolute;
+    right: 500px;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    color: rgb(44, 142, 153);
+    font-size: 1em;
 }
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');

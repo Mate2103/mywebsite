@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,17 @@
     <script src="./script.js"></script>
     <title>Találd el a színt</title>
 </head>
+
 <body onload="game()">
     <div class="menu">
         <p class="cim">Találd el a színt</p>
         <p id="kod">RGB kód: </p>
     </div>
     <div class="strip">
-        <button id="game" onclick="game()">Játék</button>
+        <button id="game" onclick="game()">Új Játék</button>
         <p id="correct">asd</p>
+        <button id="easy" onclick="hardeasy('easy')">Easy</button>
+        <button id="hard" onclick="hardeasy('hard')">Hard</button>
     </div>
     <div class="also">
         <div class="square-container">
@@ -30,4 +34,5 @@
         </div>
     </div>
 </body>
+
 </html>
