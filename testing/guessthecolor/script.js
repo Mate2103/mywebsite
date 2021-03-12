@@ -10,7 +10,7 @@ var three = document.getElementById("three");
 var four = document.getElementById("four");
 var five = document.getElementById("five");
 var six = document.getElementById("six");
-var idif;
+var idif = 6;
 function generate() {
     first = Math.floor(Math.random() * 255) + 1;
     second = Math.floor(Math.random() * 255) + 1;
@@ -51,7 +51,7 @@ function game() {
         document.getElementById('hard').style.color = "#2c8e99";
     }
     document.getElementById('one').style.backgroundColor = 'rgb(' + [szinek[0], szinek[1], szinek[2]].join(',') + ')';
-    var randomhely = Math.floor(Math.random() * 6);
+    var randomhely = Math.floor(Math.random() * idif);
     for (let i = 0; i < idif; i++) {
         if (randomhely == i) {
             szinek = generate();
