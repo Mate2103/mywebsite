@@ -4,13 +4,13 @@ body{
     overflow-y: hidden;
 }
 .also{
-    width: 1920px;
-    height: 800px;
+    width: 100%;
+    height: 100vh;
     background-color: #222222 !important;
 }
 .square{
-    height: 250px;
-    width: 250px;
+    height: 44.1%;
+    width: 29.4%;
     background-color: purple;
     display: inline-block;
     margin: 15px;
@@ -22,6 +22,7 @@ body{
 .square-container{
     padding-top: 50px;
     width: 848px;
+    height: 567px;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -50,13 +51,13 @@ p { text-align: center; }
     font-family: 'RocknRoll One', sans-serif;
 }
 #game{
-    height: 40px;
-    width: 100px;
+    height: 100%;
+    width: 5.2%;
     border: 0;
     background-color: white;
     transition: all 0.3s ease-in-out;
     color: rgb(44, 142, 153);
-    margin-left: 500px;
+    margin-left: 26%;
     font-size: 1em;
 }
 #game:hover{
@@ -65,20 +66,20 @@ p { text-align: center; }
 }
 #easy{
     position: absolute;
-    height: 40px;
-    width: 100px;
+    height: 4.3%;
+    width: 5.2%;
     border: 0;
     background-color: white;
     transition: all 0.3s ease-in-out;
     color: rgb(44, 142, 153);
-    right: 600px;
+    right: 31.25%;
     font-size: 1em;
 }
 #hard{
     position: absolute;
-    right: 500px;
-    height: 40px;
-    width: 100px;
+    right: 26%;
+    height: 4.3%;
+    width: 5.2%;
     border: 0;
     background-color: white;
     transition: all 0.3s ease-in-out;
